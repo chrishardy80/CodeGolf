@@ -72,3 +72,26 @@ Fizz
 Fizz
 Buzz
 ```
+
+## Hole 3 - Collatz Sequence
+
+### Rules
+
+- If the number is even, divide it by two
+- If the number is odd, triple it and add one.
+- Now, form a sequence by performing this operation repeatedly, beginning with any positive integer, and taking the result at each step as the input at the next.
+- Stop when you reach 1
+
+So the sequence starting with 13 is:
+
+``` Console
+13, 40, 20, 10, 5, 16, 8, 4, 2, 1
+```
+
+With a length of 10
+
+See <https://en.wikipedia.org/wiki/Collatz_conjecture> for further information.
+
+### Task
+
+Read a number from the command line or user input and output the length of the Collatz sequence.
