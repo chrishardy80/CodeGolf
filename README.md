@@ -18,7 +18,20 @@
 - Hint: Use linux line endings and ASCII text files
 - Adjudicator's decision on “solution good and in the spirit of the problem posed” is final.
 
-## Hole 1 - FizzBuzz
+## Hole 1 - Ten Green Bottles
+
+Print the following rhyme to the console
+
+``` Console
+Ten green bottles standing on the wall
+Ten green bottles standing on the wall
+And if one green bottle should accidentally fall,
+There'll be nine green bottles standing on the wall.
+```
+
+Note: Care must be taken to match case, line endings and punctuation
+
+## Hole 2 - FizzBuzz
 
 ### Challenge
 
