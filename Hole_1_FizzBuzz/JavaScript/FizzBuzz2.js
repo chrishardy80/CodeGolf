@@ -1,4 +1,4 @@
-l=console.log
-f="Fizz"
-b="Buzz"
-for(i=1;i<=100;i++)!(i%15)?l(f+b):!(i%3)?l(f):!(i%5)?l(b):l(i)
+for(i=0;++i<101;){r=""
+if(i%3==0)r+="Fizz"
+if(i%5==0)r+="Buzz"
+console.log(r||i)}
