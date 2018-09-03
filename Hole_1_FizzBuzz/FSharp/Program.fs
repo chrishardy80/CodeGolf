@@ -1,13 +1,2 @@
 ﻿open System
-[<EntryPoint>]
-let main argv =
- [1..100] 
- |>Seq.map(fun i->
-  match i%3=0,i%5=0 with
-  |true,true->"FizzBuzz"
-  |true,false->"Fizz"
-  |false,true->"Buzz"
-  |_->i.ToString();
- )
- |>Seq.iter(printfn "%s")
- 0
+[<EntryPoint>]let m a=[1..100]|>Seq.map(function|x when x%5=0&&x%3=0->"FizzBuzz"|x when x%3=0->"Fizz"|x when x%5=0->"Buzz"|x->string x)|>Seq.iter(printfn"%s");0
