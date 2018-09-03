@@ -1,1 +1,1 @@
-﻿using System;class P{static void Main(){for(int x=1;x<101;x++)Console.WriteLine(x%3==0?"Fizz"+(x%5==0?"Buzz":""):x%5==0?"Buzz":x+"");}}
+﻿class P{static void Main(){for(int x=1;x<101;x++)System.Console.WriteLine(x%3==0?"Fizz"+(x%5==0?"Buzz":""):x%5==0?"Buzz":x+"");}}
