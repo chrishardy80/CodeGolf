@@ -77,10 +77,7 @@ Buzz
 
 ### Rules
 
-- If the number is even, divide it by two
-- If the number is odd, triple it and add one.
-- Now, form a sequence by performing this operation repeatedly, beginning with any positive integer, and taking the result at each step as the input at the next.
-- Stop when you reach 1
+Take any integer number n. If n is even, divide it by 2 to get n/2, if n is odd multiply it by 3 and add 1 to obtain 3n+1. Repeat the process forming a sequence of numbers until you reach 1.
 
 So the sequence starting with 13 is:
 
