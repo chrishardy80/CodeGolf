@@ -39,7 +39,7 @@ Write a program that prints the decimal numbers from 1 to 100 inclusive. But for
 
 ### Output
 
-The output will be a list of numbers (and Fizzes, Buzzes and FizzBuzzes) separated by a newline (either \n or \r\n). A trailing newline is acceptable, but a leading newline is not. Apart from your choice of newline, the output should look exactly like this:
+The output will be a list of numbers (and Fizzes, Buzzes and FizzBuzzes) separated by a newline (either \n or \r\n). A trailing newline is acceptable, but a leading newline is not. Apart from your choice of newline, the output should look like this:
 
 ``` Console
 1
