@@ -36,7 +36,26 @@ to run it. This should print out the rhyme.
 
 Now can you make it any smaller? Those first two lines look quite similar...
 
+### Python
+
+Create a file called GreenBottle.py and paste the following lines
+
+```Python
+print("Ten green bottles standing on the wall")
+print("Ten green bottles standing on the wall")
+print("And if one green bottle should accidentally fall,")
+print("There'll be nine green bottles standing on the wall.")
+```
+
+to run it in the console use
+
+```console
+py GreenBottle.py
+```
+
 ## Hole 2 - FizzBuzz
+
+### C# / dotnet core
 
 Create a new folder called FizzBuzz and create a project with the following command:
 
@@ -70,6 +89,27 @@ class Program
         }
     }
 }
+```
+### Python
+
+Create a file called FizzBuzz.py and paste the following lines
+
+```Python
+for number in range(0, 101):
+    line = number
+    if number % 3 == 0:
+        line = "Fizz"
+        if number % 5 == 0:
+            line =  line + "Buzz"
+    elif number % 5 == 0:
+        line = "Buzz"
+    print(line)
+```
+
+again to run it in the console use
+
+```console
+py FizzBuzz.py
 ```
 
 ## Hole 3 - Collatz Sequence
